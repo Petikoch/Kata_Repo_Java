@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    id( "com.github.ben-manes.versions") version "0.34.0"
+    id( "com.github.ben-manes.versions") version "0.38.0"
 }
 
 java {
@@ -27,9 +27,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
-    testImplementation("org.assertj:assertj-core:3.18.0")
-    testImplementation("org.mockito:mockito-core:3.6.0")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
+    testImplementation("org.assertj:assertj-core:3.19.0")
+    testImplementation("org.mockito:mockito-core:3.9.0")
     // testImplementation("org.mockito:mockito-junit-jupiter:2.+")
 }
 
