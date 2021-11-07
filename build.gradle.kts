@@ -1,11 +1,11 @@
 plugins {
     id("java")
-    id( "com.github.ben-manes.versions") version "0.38.0"
+    id( "com.github.ben-manes.versions") version "0.39.0"
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_15
-    targetCompatibility = JavaVersion.VERSION_15
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 tasks {
@@ -27,9 +27,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
-    testImplementation("org.assertj:assertj-core:3.19.0")
-    testImplementation("org.mockito:mockito-core:3.9.0")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+    testImplementation("org.assertj:assertj-core:3.21.0")
+    testImplementation("org.mockito:mockito-core:4.0.0")
     // testImplementation("org.mockito:mockito-junit-jupiter:2.+")
 }
 
